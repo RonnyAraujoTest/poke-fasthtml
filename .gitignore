@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+.sesskey
+pyrightconfig.json
+
+# Variables de entorno (¡Muy importante!)
+.env
+
+# Docker
+.dockerignore
+
+# IDEs
+.vscode/
+.idea/
+
+# SO
+.DS_Store
+Thumbs.db
