@@ -26,7 +26,7 @@ Sigue estos pasos para correr el proyecto localmente:
 ### 1. Clonar el repositorio
 ```bash
 git clone https://github.com/RonnyAraujoTest/poke-fasthtml
-cd tu-pokedex
+cd poke-fasthtml
 ```
 
 ### 2. Configurar el entorno

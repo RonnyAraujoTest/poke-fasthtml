@@ -18,8 +18,8 @@ def PokedexFooter():
         Div(
             Div(
                 Span("Diseño original por "),
-                A("@Gilbert Matos", 
-                  href="hhttps://github.com/treblig-punisher", 
+                A("Gilbert Matos", 
+                  href="https://github.com/treblig-punisher", 
                   target="_blank",
                   cls="footerLink"),
                 cls="footerSection"
