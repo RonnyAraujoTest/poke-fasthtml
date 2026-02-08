@@ -53,11 +53,12 @@ def get():
 async def post(pokemon_name: str):
     pokemon = get_pokemon_data(pokemon_name)
 
-    return PokemonDisplay(
-        name=pokemon["name"],
-        picture=pokemon["picture"],
-        types=pokemon["types"]
-    )
+    if pokemon and pokemon.get("success"):
+        return PokemonDisplay(
+            name=pokemon["name"],
+            picture=pokemon["picture"],
+            types=pokemon["types"]
+        )
     
     # Si falla, devolvemos el estado de "No Match"
     return PokemonDisplay(picture="/app/static/noMatch.png")
