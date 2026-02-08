@@ -25,7 +25,7 @@ Sigue estos pasos para correr el proyecto localmente:
 
 ### 1. Clonar el repositorio
 ```bash
-git clone [https://github.com/tu-usuario/tu-pokedex.git](https://github.com/tu-usuario/tu-pokedex.git)
+git clone https://github.com/RonnyAraujoTest/poke-fasthtml
 cd tu-pokedex
 ```
 

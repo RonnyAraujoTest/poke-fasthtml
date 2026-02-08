@@ -28,7 +28,7 @@ def PokedexFooter():
             Div(
                 Span("Código fuente en "),
                 A("GitHub", 
-                  href="https://github.com/tu-usuario/tu-repo-fasthtml", 
+                  href="https://github.com/RonnyAraujoTest/poke-fasthtml", 
                   target="_blank",
                   cls="githubLink"),
                 cls="footerSection"
